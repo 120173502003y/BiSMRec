@@ -23,6 +23,7 @@ cd ./src
 python main.py
 
 # Directory Structure
+```text
 ├─ common/          # trainer, initialization, loss functions
 ├─ utils/           # configuration, datasets & DataLoader, evaluation, logging
 ├─ src/
@@ -31,6 +32,4 @@ python main.py
 │     └─ BiSMRec.py # model implementation
 ├─ data/            # place datasets (see data format)
 └─ configs/         # runtime configs (overall / model / dataset)
-
-
  
